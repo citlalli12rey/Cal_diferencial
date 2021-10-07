@@ -36,3 +36,16 @@ syms x
 solve(x^2+a<b)
 x=[-2:2]
 plot(x,x)
+
+%inecuacion de segundo grado con valor absoluto
+'(inecuaciones de  segundo  grado  con valor absoluto)'
+disp ('3*x>=x^+4')
+a=3;
+b=14;
+syms x
+solve (a*x>=x^+b)
+x=[0:4]
+plot (x,x)
+%grafica de la tercera celda 
+suplot(0,1,2,3,4)
+plot(x,x)
